@@ -1,11 +1,7 @@
 import React from "react";
 import ReactDOM from "react-dom/client";
-import TombalaCard from "./TombalaCard";
 import "./index.css";
+import TombalaCard from "./TombalaCard";
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
-root.render(
-  <React.StrictMode>
-    <TombalaCard />
-  </React.StrictMode>
-);
+root.render(<TombalaCard />);
